@@ -55,7 +55,7 @@ class TelefoneController extends Controller
 
         $telefone->save();
 
-        return redirect('/')->with('msg','!!telefone CADSATRADO COM SUCESSO!!');
+        return redirect('/')->with('msg','!!TELEFONE CADSATRADO COM SUCESSO!!');
     }
 
     /**

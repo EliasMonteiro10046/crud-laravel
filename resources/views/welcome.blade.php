@@ -3,6 +3,15 @@
 
 @section('content')
 
+        <main>
+            <div>
+                @if (session('msg'))
+                    <p class="msg">{{session('msg')}}</p>
+                @endif
+                @yield('content')
+            </div>
+        </main>
+
         <br>
         <div>
             <div class="btn-toolbar">

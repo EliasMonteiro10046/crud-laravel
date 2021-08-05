@@ -48,7 +48,7 @@ class OperadoraController extends Controller
 
         $operadora->save();
 
-        return redirect('/')->with('msg','!!operadora CADSATRADO COM SUCESSO!!');
+        return redirect('/')->with('msg','!!OPERADORA CADSATRADA COM SUCESSO!!');
     }
 
     /**
